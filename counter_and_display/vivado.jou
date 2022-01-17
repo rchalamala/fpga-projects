@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Jan 17 00:11:15 2022
+# Process ID: 22356
+# Current directory: C:/Users/Rahul/Documents/alchitry/fpga_projects/counter_and_display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20968 C:\Users\Rahul\Documents\alchitry\fpga_projects\counter_and_display\au_base_project.xpr
+# Log file: C:/Users/Rahul/Documents/alchitry/fpga_projects/counter_and_display/vivado.log
+# Journal file: C:/Users/Rahul/Documents/alchitry/fpga_projects/counter_and_display\vivado.jou
+# Running On: DESKTOP-16CIA5M, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 8, Host memory: 34238 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Rahul/Documents/alchitry/fpga_projects/counter_and_display/au_base_project.xpr
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/Rahul/Documents/alchitry/fpga_projects/counter_and_display/au_base_project.srcs/constrs_1/new/io.xdc
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
